@@ -30,3 +30,10 @@ The goal is to develop a language compatible better communication-interface for 
 12. Change data-dir, config-dir and other arguments passed to Nodeos in /NodeosSwigWrapper/NodeosProcess
 13. Build and Run
   
+  
+# SWIG Directors
+Directors-Support is available for different languages:
+- C# https://www.swig.org/Doc3.0/CSharp.html#CSharp_directors
+- GO https://www.swig.org/Doc3.0/Go.html#Go_director_classes
+- Java https://www.swig.org/Doc1.3/Java.html#java_directors
+- Python https://www.swig.org/Doc1.3/Python.html#Python_nn33
