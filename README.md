@@ -11,9 +11,9 @@ The goal is to develop a language compatible better communication-interface for 
 /NodeosSwigWrapper/NodeosSwigSharp contains generated Wrapper Code
 /NodeosSwigWrapper/NodeosSwigExtensions extends the generated Types
 
-SwigDataWrapper.cs allows allows high performance copying of binary data owned by the nodeos process
-Methods in SwigLogger.cs is invoked through a swig-director passed to Nodeos
-SwigLogProcessor.cs implements asynchronity by queueing data received (and copied so it's owned by the C#-process) and allows to build any form of consumer on top
+- SwigDataWrapper.cs allows allows high performance copying of binary data owned by the nodeos process
+- Methods in SwigLogger.cs are invoked through a swig-director passed to Nodeos
+- SwigLogProcessor.cs implements asynchronity by queueing data received (and copied so it's owned by the C#-process) and allows to build any form of consumer on top
 
 ## Try yourself
 
