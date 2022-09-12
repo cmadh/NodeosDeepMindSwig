@@ -1,6 +1,6 @@
 # NodeosDeepMindSwig
 
-C# Application wrapping AntelopeIO's Nodeos as library invoking C#-delegates through a director on deep-mind-events without logging to stdout
+C# Application wrapping AntelopeIO's Nodeos as library invoking C#-Methods through a director on deep-mind-events without logging to stdout
 
 ## About
 Weekend project testing if Nodeos can be wrapped with SWIG in a library to call methods in the wrapping language via Swig directors. 
