@@ -8,9 +8,8 @@ Weekend project testing if Nodeos can be wrapped with SWIG in a library to call 
 The goal is to develop a language compatible better communication-interface for processing deep-mind-events without the use of stdout or pipes and heavy serialization and deserialization of binary data.
 
 ## Directories and Classes
-/NodeosSwigWrapper/NodeosSwigSharp contains generated Wrapper Code
-/NodeosSwigWrapper/NodeosSwigExtensions extends the generated Types
-
+- /NodeosSwigWrapper/NodeosSwigSharp contains generated Wrapper Code
+- /NodeosSwigWrapper/NodeosSwigExtensions extends the generated Types
 - SwigDataWrapper.cs allows allows high performance copying of binary data owned by the nodeos process
 - Methods in SwigLogger.cs are invoked through a swig-director passed to Nodeos
 - SwigLogProcessor.cs implements asynchronity by queueing data received (and copied so it's owned by the C#-process) and allows to build any form of consumer on top
