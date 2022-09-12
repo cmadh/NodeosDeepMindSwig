@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeosSwigTester", "NodeosSwigTester\NodeosSwigTester.csproj", "{879D9710-25D6-4E4E-8300-9B96782B85AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeosSwigWrapper", "NodeosSwigWrapper\NodeosSwigWrapper.csproj", "{C1AA542A-3668-474B-A826-D1C627179A7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879D9710-25D6-4E4E-8300-9B96782B85AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879D9710-25D6-4E4E-8300-9B96782B85AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879D9710-25D6-4E4E-8300-9B96782B85AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879D9710-25D6-4E4E-8300-9B96782B85AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AA542A-3668-474B-A826-D1C627179A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AA542A-3668-474B-A826-D1C627179A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AA542A-3668-474B-A826-D1C627179A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AA542A-3668-474B-A826-D1C627179A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9C0814-6798-414D-A775-68E73E80D13F}
+	EndGlobalSection
+EndGlobal

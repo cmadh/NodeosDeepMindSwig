@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "NodeosSwigTester": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "WSL : Ubuntu-20.04 Corvin": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "distributionName": "Ubuntu20.04LTS2",
+      "remoteDebugEnabled": true
+    }
+  }
+}
